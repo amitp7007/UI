@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class UiApplication {
 
-	@GetMapping("/")
+	/*@GetMapping("/")
 	  @ResponseBody
 	  public String login() {
 	    Map<String, Object> model = new HashMap<String, Object>();
 	    model.put("id", 1234);
 	    model.put("content", "Hello World");
 	    return "login";
-	  }
+	  }*/
 	@GetMapping("/resource")
 	  @ResponseBody
 	  public Map<String, Object> home() {
